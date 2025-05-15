@@ -29,6 +29,10 @@ latest_posts:
 
 I am a Ph.D. Candidate in [ECE@Purdue University](https://engineering.purdue.edu/ECE) under the supervision of Prof. [Jing Gao](https://engineering.purdue.edu/~jinggao/). Before coming to Purdue, I spent two wonderful years at [University of Michigan](https://nextprof.engin.umich.edu/nextprof-nexus/) to acquire my MS degree in Statistics. Prior to that, I got my BS degree from [Xiamen University](https://en.xmu.edu.cn/main.htm).
 
-I am interested in building helpful and reliable AI/ML. My current research mainly focuses on building knowledgeable LLMs in efficiency. To this end, I have developed tools to conduct precise and generalizable knowledge update for LLMs. I am also interested in algorithmic fairness and AI safety. 
+<!-- I am interested in building helpful and reliable AI/ML. My current research mainly focuses on building knowledgeable LLMs in efficiency. To this end, I have developed tools to conduct precise and generalizable knowledge update for LLMs. I am also interested in algorithmic fairness and AI safety.  -->
+
+I am broadly interested in building helpful and reliable AI/ML. My current research focuses on building knowledgeable LLMs in efficiency. To this end, I develop tools to conduct precise and generalizable knowledge update for LLMs. 
+I also work on algorithmic fairness and its safety, inverse problems and its applications, and AI-empowered wireless sensing systems.
+
 
 Feel free to drop me an [email](mailto:lliutianc@gmail.com) if you are interested in my research or just want to chat. I am always open to new ideas and collaborations.
