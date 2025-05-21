@@ -1,0 +1,13 @@
+name: Test Push Trigger
+
+on:
+  push:
+    branches:
+      - main # Or 'master' if that's your primary branch
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a message
+        run: echo "Test push trigger workflow ran successfully!"
