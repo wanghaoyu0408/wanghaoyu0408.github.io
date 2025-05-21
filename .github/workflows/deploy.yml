@@ -1,65 +1,72 @@
-name: Deploy site
+# name: Deploy site
 
-on:
+# on:
+#   push:
+#     branches:
+#       - master
+#       - main
+#     paths:
+#       - "assets/**"
+#       - "_sass/**"
+#       - "_scripts/**"
+#       - "**.bib"
+#       - "**.html"
+#       - "**.js"
+#       - "**.liquid"
+#       - "**/*.md"
+#       - "**.yml"
+#       - "Gemfile"
+#       - "Gemfile.lock"
+#       - "!.github/workflows/axe.yml"
+#       - "!.github/workflows/broken-links.yml"
+#       - "!.github/workflows/deploy-docker-tag.yml"
+#       - "!.github/workflows/deploy-image.yml"
+#       - "!.github/workflows/docker-slim.yml"
+#       - "!.github/workflows/lighthouse-badger.yml"
+#       - "!.github/workflows/prettier.yml"
+#       - "!lighthouse_results/**"
+#       - "!CONTRIBUTING.md"
+#       - "!CUSTOMIZE.md"
+#       - "!FAQ.md"
+#       - "!INSTALL.md"
+#       - "!README.md"
+#   pull_request:
+#     branches:
+#       - master
+#       - main
+#     paths:
+#       - "assets/**"
+#       - "_sass/**"
+#       - "_scripts/**"
+#       - "**.bib"
+#       - "**.html"
+#       - "**.js"
+#       - "**.liquid"
+#       - "**/*.md"
+#       - "**.yml"
+#       - "Gemfile"
+#       - "Gemfile.lock"
+#       - "!.github/workflows/axe.yml"
+#       - "!.github/workflows/broken-links.yml"
+#       - "!.github/workflows/deploy-docker-tag.yml"
+#       - "!.github/workflows/deploy-image.yml"
+#       - "!.github/workflows/docker-slim.yml"
+#       - "!.github/workflows/lighthouse-badger.yml"
+#       - "!.github/workflows/prettier.yml"
+#       - "!lighthouse_results/**"
+#       - "!CONTRIBUTING.md"
+#       - "!CUSTOMIZE.md"
+#       - "!FAQ.md"
+#       - "!INSTALL.md"
+#       - "!README.md"
+#   workflow_dispatch:
+name: Deploy site # Keep your original workflow name
+
+on: # Replace your entire existing 'on:' block with this
   push:
     branches:
-      - master
-      - main
-    # paths:
-    #   - "assets/**"
-    #   - "_sass/**"
-    #   - "_scripts/**"
-    #   - "**.bib"
-    #   - "**.html"
-    #   - "**.js"
-    #   - "**.liquid"
-    #   - "**/*.md"
-    #   - "**.yml"
-    #   - "Gemfile"
-    #   - "Gemfile.lock"
-    #   - "!.github/workflows/axe.yml"
-    #   - "!.github/workflows/broken-links.yml"
-    #   - "!.github/workflows/deploy-docker-tag.yml"
-    #   - "!.github/workflows/deploy-image.yml"
-    #   - "!.github/workflows/docker-slim.yml"
-    #   - "!.github/workflows/lighthouse-badger.yml"
-    #   - "!.github/workflows/prettier.yml"
-    #   - "!lighthouse_results/**"
-    #   - "!CONTRIBUTING.md"
-    #   - "!CUSTOMIZE.md"
-    #   - "!FAQ.md"
-    #   - "!INSTALL.md"
-    #   - "!README.md"
-  pull_request:
-    branches:
-      - master
-      - main
-    paths:
-      - "assets/**"
-      - "_sass/**"
-      - "_scripts/**"
-      - "**.bib"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
-      - "!README.md"
-  workflow_dispatch:
+      - main # Or use 'master' if that's your primary branch
+  workflow_dispatch: {} # This keeps the manual trigger option
 
 permissions:
   contents: write
