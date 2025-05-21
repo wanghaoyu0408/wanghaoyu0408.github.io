@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wanghaoyu0408.github.io/sitemap.xml
